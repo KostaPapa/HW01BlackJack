@@ -13,6 +13,10 @@
 		0AADD40E19D33FB40073EC98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AADD40D19D33FB40073EC98 /* Images.xcassets */; };
 		0AADD41119D33FB40073EC98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AADD40F19D33FB40073EC98 /* LaunchScreen.xib */; };
 		0AADD41D19D33FB40073EC98 /* HW01BlackJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADD41C19D33FB40073EC98 /* HW01BlackJackTests.swift */; };
+		0AADD42719D349A30073EC98 /* BJPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADD42619D349A30073EC98 /* BJPlayer.swift */; };
+		0AADD42919D34B650073EC98 /* BJDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADD42819D34B650073EC98 /* BJDeck.swift */; };
+		0AADD42B19D34BE40073EC98 /* BJCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADD42A19D34BE40073EC98 /* BJCard.swift */; };
+		0AADD42D19D34D590073EC98 /* BlackJack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AADD42C19D34D590073EC98 /* BlackJack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		0AADD41619D33FB40073EC98 /* HW01BlackJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW01BlackJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AADD41B19D33FB40073EC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AADD41C19D33FB40073EC98 /* HW01BlackJackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW01BlackJackTests.swift; sourceTree = "<group>"; };
+		0AADD42619D349A30073EC98 /* BJPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJPlayer.swift; sourceTree = "<group>"; };
+		0AADD42819D34B650073EC98 /* BJDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJDeck.swift; sourceTree = "<group>"; };
+		0AADD42A19D34BE40073EC98 /* BJCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJCard.swift; sourceTree = "<group>"; };
+		0AADD42C19D34D590073EC98 /* BlackJack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackJack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				0AADD40619D33FB40073EC98 /* AppDelegate.swift */,
 				0AADD40819D33FB40073EC98 /* ViewController.swift */,
 				0AADD40A19D33FB40073EC98 /* Main.storyboard */,
+				0AADD42619D349A30073EC98 /* BJPlayer.swift */,
+				0AADD42819D34B650073EC98 /* BJDeck.swift */,
+				0AADD42A19D34BE40073EC98 /* BJCard.swift */,
+				0AADD42C19D34D590073EC98 /* BlackJack.swift */,
 				0AADD40D19D33FB40073EC98 /* Images.xcassets */,
 				0AADD40F19D33FB40073EC98 /* LaunchScreen.xib */,
 				0AADD40419D33FB40073EC98 /* Supporting Files */,
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AADD40919D33FB40073EC98 /* ViewController.swift in Sources */,
+				0AADD42719D349A30073EC98 /* BJPlayer.swift in Sources */,
+				0AADD42D19D34D590073EC98 /* BlackJack.swift in Sources */,
+				0AADD42919D34B650073EC98 /* BJDeck.swift in Sources */,
 				0AADD40719D33FB40073EC98 /* AppDelegate.swift in Sources */,
+				0AADD42B19D34BE40073EC98 /* BJCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
